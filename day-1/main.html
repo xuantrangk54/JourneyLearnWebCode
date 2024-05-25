@@ -7,6 +7,22 @@
         <script>
             console.log ("trang \n dep trai");
             console.log (`100/2=${100/2}`);
+
+
+            //Lopping Triangle
+            function getStringStar (len) {
+                var str = "";
+                for (let i=0; i<len; i++) {
+                    str += "*";
+                }
+                return str;
+            }
+            let numberStar = 10; //prompt ("What number star you need:");
+            for (let i=0;i<numberStar;i++){
+                console.log (getStringStar(i+1));
+            }
+
+
         </script>
     </body>
 </html>
